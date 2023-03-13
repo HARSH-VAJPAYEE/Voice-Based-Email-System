@@ -10,7 +10,7 @@ engine.setProperty('voice', voices[1].id)
 server = smtplib.SMTP("smtp.gmail.com", 587)
 server.starttls()
 server_login_mail = "connect.community2022@gmail.com"
-server_login_password = "sharda@123"
+server_login_password = "sharda"
 server.login(server_login_mail, server_login_password)
 
 
